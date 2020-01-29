@@ -122,6 +122,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TmhSyjunAZfkxtgDy5EL0IxKP7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -132,7 +133,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -152,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ListUsersTest.testItCreateUser">
+  <component name="RunManager">
     <configuration name="ListUsersTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ListUsersTest" file="$PROJECT_DIR$/tests/Feature/ListUsersTest.php" scope="Class" />
       <method v="2" />
@@ -177,15 +178,6 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHPUnit.ListUsersTest.testItCreateUser" />
-        <item itemvalue="PHPUnit.ListUsersTest.testItDeleteAnUser" />
-        <item itemvalue="PHPUnit.ListUsersTest" />
-        <item itemvalue="PHPUnit.ListUsersTest.testEmptyWhenNoUsers" />
-        <item itemvalue="PHPUnit.ListUsersTest.testHasAUser" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,20 +203,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/tests/Feature/ExampleTest.php</url>
-          <line>16</line>
-          <properties>
-            <option name="className" value="\Tests\Feature\ExampleTest" />
-            <option name="methodName" value="testBasicTest" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

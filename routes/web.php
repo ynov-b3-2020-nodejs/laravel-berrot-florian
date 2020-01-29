@@ -41,18 +41,14 @@ Route::get('/settings/security', function () {
 /*Route::get('/register/verify', function () {
     // Users must confirm their password before continuing...
 })->middleware(['auth', 'verification.verify']);*/
-Route::get('/products', function () {
 
-    return view('products', ['products' => \App\Product::all() ] );
-});
-Route::get('/product/{product}', function (\App\Product $product) {
-
-    return view('info', ['product' => $product ] );
-});
 /*Route::get('/products', function () {
 
     return view('info');
 });
 */
 //Route::get('/profil', 'ProfilController@index')->name('profil');
+
+Route::resource('products','ProductController');
+
 
